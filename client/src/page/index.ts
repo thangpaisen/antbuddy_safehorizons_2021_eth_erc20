@@ -1,0 +1,6 @@
+export * from './Dashboard'
+export * from './Login'
+export * from './ListOrder'
+export * from './DetailProduct'
+export * from './Register'
+export * from './User'

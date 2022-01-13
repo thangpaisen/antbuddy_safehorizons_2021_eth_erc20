@@ -1,0 +1,146 @@
+#Pageregister{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    // input#password,#repeatPassword{
+    //     height: 50px;
+    // }
+    .containerRegister{
+        padding: 0 !important;
+        margin: 0 !important;
+        height: 100vh;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .row{
+            height: 95%;
+            padding: 0 !important;
+            margin: 0 !important;
+            --bs-gutter-x: 0!important;
+            width: 100%;
+            margin: 24px 0;
+            background: white;
+            padding: 24px;
+            box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+
+        }
+        .wrapperRight{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            .txtTitle {
+                font-family: Roboto;
+                margin-top: 12px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24;
+                line-height: 32px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                color: #262626;
+                display: flex;
+                justify-content: center;
+            }
+            .regNow{
+                color: #1890FF;
+                cursor: pointer;
+            }
+            form.formRegister {
+                width: 80%;
+            }
+            .txtContent {
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 17px;
+                line-height: 32px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+            }
+            .contact-title-0 {
+                display: flex;
+                flex-direction: column;
+                margin: 6px 0;
+            }
+            .contact-title-1 {
+                display: flex;
+                flex-direction: column;
+                margin: 6px 0;
+            }
+            span.txtLable {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 22px;
+            }
+            input.input-Register-txt {
+                padding: 10px;
+                padding: 8px 12px;
+                border: 1px solid #D9D9D9;
+                margin: 8px 0;
+            }
+            .ant-input-affix-wrapper {
+                padding: 0!important;
+                margin: 12px 0;
+                padding-right: 11px!important;
+                input.ant-input{
+                    padding: 0 11px!important;
+                    width: 100%;
+                    border: none!important;
+                    border-radius: 2px;
+                }
+            }
+            .pass{
+                margin: 0 12px;
+            }
+            span.forgotPass {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 22px;
+                color: #1F4A7C;
+            }
+            .wraperRegister {
+                display: flex;
+                justify-content: center;
+                margin-top: 12px;
+                button.btn-Register {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 8px 16px;
+                    background: #1890FF;
+                    border: 1px solid #1890FF;
+                    box-sizing: border-box;
+                    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+                    border-radius: 2px;
+                    color: #fff;
+                    height: 40px;
+                    width: 352px;
+                }
+            }
+            span.noAccount {
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 22px;
+                text-align: center;
+                margin: 12px;
+            }
+        }
+    }
+}

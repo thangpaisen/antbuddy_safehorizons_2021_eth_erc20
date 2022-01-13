@@ -1,0 +1,13 @@
+import express from 'express';
+const route = express.Router();
+import user from './User/User.route';
+import product from './product/product.router';
+import order from './order/order.router';
+import upload from './upload';
+import categories from './categories/categories.router';
+route.use('/user', user);
+route.use('/product', product);
+route.use('/order', order);
+route.use('/upload', upload);
+route.use('/categories', categories);
+export default route;
